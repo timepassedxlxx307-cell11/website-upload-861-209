@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>影片搜索-国产电影片库</title>
+  <meta name="description" content="全站影片搜索，可按片名、类型、地区、年份和标签查找高清影视内容。">
+  <meta name="keywords" content="国产电影视频免费在线观看|高清电影片库与口碑佳作-最新国产剧,国产,视频,免费,在线观看,高清,影视大全,搜索,影片搜索">
+  <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body class="">
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="./index.html" aria-label="国产电影片库">
+      <span class="brand-mark">▶</span>
+      <span class="brand-name">国产电影片库</span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a href="./index.html">首页</a>
+      <a href="./categories.html">分类</a>
+      <a href="./ranking.html">排行榜</a>
+      <a href="./category-hd-library.html">高清片库</a><a href="./category-word-of-mouth.html">口碑佳作</a><a href="./category-domestic.html">国产电影</a><a href="./category-new-drama.html">最新国产剧</a><a href="./category-suspense.html">悬疑推理</a>
+    </nav>
+    <form class="header-search" action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片、类型、年份" aria-label="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="mobile-toggle" type="button" aria-label="展开导航" aria-expanded="false">☰</button>
+  </div>
+  <div class="mobile-panel" aria-hidden="true">
+    <form class="mobile-search" action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+    <nav class="mobile-nav" aria-label="移动导航">
+      <a href="./index.html">首页</a>
+      <a href="./categories.html">分类总览</a>
+      <a href="./ranking.html">排行榜</a>
+      <a href="./category-hd-library.html">高清片库</a><a href="./category-word-of-mouth.html">口碑佳作</a><a href="./category-domestic.html">国产电影</a><a href="./category-new-drama.html">最新国产剧</a><a href="./category-suspense.html">悬疑推理</a><a href="./category-action.html">动作犯罪</a><a href="./category-romance.html">爱情家庭</a><a href="./category-comedy.html">喜剧动画</a><a href="./category-sci-fi.html">科幻奇幻</a><a href="./category-global.html">海外精品</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="page-hero compact-hero">
+    <span class="eyebrow">SEARCH</span>
+    <h1>影片搜索</h1>
+    <p>输入片名、地区、年份、类型或关键词，快速定位片库中的影片详情与播放入口。</p>
+  </section>
+  <section class="content-section search-section">
+    <form class="search-page-form" action="./search.html" method="get">
+      <input id="searchInput" type="search" name="q" placeholder="搜索影片、类型、年份、地区">
+      <button type="submit">搜索</button>
+    </form>
+    <div class="search-summary" id="searchSummary"></div>
+    <div class="movie-grid" id="searchResults"></div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="footer-grid">
+    <section>
+      <div class="footer-brand"><span>▶</span>国产电影片库</div>
+      <p>围绕国产电影、高清内容整理视频资源，提供免费在线观看、高清播放与多维分类入口，可按片库、口碑佳作与排行榜快速定位观看内容。</p>
+    </section>
+    <section>
+      <h2>热门分类</h2>
+      <ul><li><a href="./category-hd-library.html">高清片库</a></li><li><a href="./category-word-of-mouth.html">口碑佳作</a></li><li><a href="./category-domestic.html">国产电影</a></li><li><a href="./category-new-drama.html">最新国产剧</a></li><li><a href="./category-suspense.html">悬疑推理</a></li><li><a href="./category-action.html">动作犯罪</a></li></ul>
+    </section>
+    <section>
+      <h2>快捷入口</h2>
+      <ul>
+        <li><a href="./ranking.html">排行榜</a></li>
+        <li><a href="./categories.html">分类总览</a></li>
+        <li><a href="./search.html">影片搜索</a></li>
+      </ul>
+    </section>
+    <section>
+      <h2>观影频道</h2>
+      <p>按片库、口碑佳作、地区、年份与类型组合浏览，快速定位想看的高清影视内容。</p>
+    </section>
+  </div>
+  <div class="footer-bottom">© 2026 国产电影片库. 保留所有权利.</div>
+</footer>
+<script src="./assets/app.js"></script>
+<script src="./assets/search-data.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
